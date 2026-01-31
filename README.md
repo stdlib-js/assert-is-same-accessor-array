@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isSameAccessorArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-accessor-array@deno/mod.js';
+import isSameAccessorArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-accessor-array@v0.1.0-deno/mod.js';
 ```
 
 #### isSameAccessorArray( v1, v2 )
@@ -82,7 +82,7 @@ bool = isSameAccessorArray( x, [ -1.0, 2.0 ] );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isSameAccessorArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-accessor-array@deno/mod.js';
+import isSameAccessorArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-accessor-array@v0.1.0-deno/mod.js';
 import Complex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@deno/mod.js';
 
 var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0 ] );
