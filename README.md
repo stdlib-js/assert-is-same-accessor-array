@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isSameAccessorArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-accessor-array@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-same-accessor-array/tags). For example,
+
+```javascript
 import isSameAccessorArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-accessor-array@v0.1.1-deno/mod.js';
 ```
 
@@ -82,7 +87,7 @@ bool = isSameAccessorArray( x, [ -1.0, 2.0 ] );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isSameAccessorArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-accessor-array@v0.1.1-deno/mod.js';
+import isSameAccessorArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-accessor-array@deno/mod.js';
 import Complex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@deno/mod.js';
 
 var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0 ] );
